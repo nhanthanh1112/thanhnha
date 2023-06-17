@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+    .container{
+        background-color: #E5E7E9;
+    }
+    .imagechange{
+        width: 189.8px;
+        margin-right: 4px;
+    }
+    div.container2{
+        text-align: center;
+    }
+    a1{
+        margin-left: 4px;
+    }
+    .container5{
+        background-color: #E5E7E9;
+    }
+    .container6{
+        background-color:#302F2E;
+    }
+    /* .container10{
+      background-color: #E5E7E9;
+    } */
+</style>
+</head>
+<body>
+  <div class="container10">
+    <div class="container5">
+<div class="container-fuild mid-menu" style="background-color: #E5E7E9;">
+    <div class="row">
+        <div class="col"style="margin-left:60px;"><a href="index.html"><img src="img/logo.png"style="width:150px;" alt=""></a>
+        </div>
+        <div class="col"style="margin-left:-80px;"><input type="text" class="form-control" placeholder="Nhập tên truyện"style="margin-left:200px;">
+        </div>
+        <div class="col"style="margin-left:-60px;">
+            <button type="button" class="btn btn-primary"style="margin-left:270px;"data-bs-toggle="modal" data-bs-target="#myModal">Đăng nhập</button>
+            <button type="button" class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#myModal-signup">Đăng ký</button>
+        </div>
+        </div>
+    </div>
+    <div class="container2-centered">
+        <div class="container2-fuild mid-menu">
+            <div class="row r2 mx-2 bg-primary">
+                <ul class="nav"style="margin-left:60px;">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">HOT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">MỚI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                        data-bs-toggle="dropdown">THỂ LOẠI</a>
+                    <ul class="dropdown-menu bg-dark">
+                        <div class="row">
+                            <div class="col">
+                                <li><a class="dropdown-item text-white" href="#">Đã hoàn thành</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Đang tiến hành</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Shoujo AI</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Honor</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Smurf</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Webtoon</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Hệ thống</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Xuyên không</a></li>
+                            </div>
+                       <div class="col">
+                        <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Yaoi</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Adventure</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Chuyển Sinh</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Doujinshi</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Fantasy</a></li>
+                       </div>
+                       <div class="col">
+                        <li><a class="dropdown-item text-white" href="#">Manhwa</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Mecha</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Shoujo</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Trinh Thám</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Xuyên Không</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Truyện Màu</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Isekai</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Mecha</a></li>
+                       </div>
+                       
+                    </div>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">YÊU THÍCH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">LỊCH SỬ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">THEO DÕI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">ĐĂNG TRUYỆN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">MANGA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">MANHUA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">NOVEL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="napxu.html">NẠP XU</a>
+                    </li>
+                </ul>  
+            </div>
+        </div>
+    </div>
+      <div class="row mt-3">
+        <div class="col"style="margin-left:-70px;">
+          <div id="demo" class="carousel slide" data-bs-ride="carousel"style="width:50%;margin-left:750px;">
+
+            <!-- Indicators/dots -->
+            <!-- <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div> -->
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                        <img src="img/cultivation-manhua-with-op-mc-list.jpg" alt="Los Angeles" class="d-block" style="width:100%;height:300px">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/sl.jpg" alt="Chicago" class="d-block" style="width:100%;height:300px">
+                <div class="carousel-caption">
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <img src="img/cc.jpg" alt="New York" class="d-block" style="width:100%;height:300px">
+                <div class="carousel-caption">
+                </div>  
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-2"style="margin-top:-25px;margin-left:-700px;">
+          <div class="list-group mt-4" style="width:400px;margin-top: -200px;margin-left:-700px;">
+            <a href="#" class="list-group-item list-group-item-action"style="background-color: #99CCFF;"><b>NỔI BẬT</b></a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">SOLO LEVELING</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">VŨ LUYỆN ĐIÊN PHONG</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">BÁCH LUYỆN THÀNH THẦN</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">YÊU THẦN KÝ</a>
+          </div>
+        </div>
+       
+            
+        </div>
+      </div>
+      <div class="row"style="margin-left:60px;">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#"><button type="button" class="btn btn-primary">Truyện mới cập nhật</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark"style="margin-top: 9px;" href="#">Mới nhất</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark"style="margin-top: 9px;" href="#">Đang hot</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark"style="margin-top: 9px;" href="#">Xem nhiều</a>
+            </li>
+        </ul>
+      </div>
+     
+      <hr width="100%"
+        color="red"
+        size="5px">
+      <div class="row">
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 80px;">
+              <a href="tamlymavan.html">  <img src="img/4.jpg" alt="Avatar" style="width:150px"></a>
+                <div>
+                  <h6>Tâm Lý Ma Vân Tâm</h6> 
+                  <p>Chapter 20</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 40px;">
+              <a href="daotu.html"> <img src="img/3.jpg" alt="Avatar" style="width:140px"></a> 
+                <div>
+                  <h6>Dạo Tử</h6> 
+                  <p>Chapter 25</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 30px;">
+           <a href="thichu.html">    <img src="img/5.jpg" alt="Avatar" style="width:150px"></a> 
+                <div>
+                  <h6>Thí Chủ,Xin Dừng Bước</h6> 
+                  <p>Chapter 36</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 30px;">
+           <a href="tuda.html">    <img src="img/6.jpg" alt="Avatar" style="width:135px"></a> 
+                <div>
+                  <h6>Tử Dạ</h6> 
+                  <p>Chapter 25</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="list-group mt-4" style="width:400px;margin-top: -50px">
+                <a href="#" class="list-group-item list-group-item-action"><b>LỊCH SỬ</b></a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light">Bạn chưa có lịch sử đọc </a>
+              </div>
+              <br> <div class="list-group mt-1" style="width:400px;margin-top: -50px">
+                <a href="#" class="list-group-item list-group-item-action"><b>BẢNG XẾP HẠNG</b></a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+                <div class="row">
+                    <div class="col"><b>Top tuần</b></div>
+                    <div class="col">Top tháng</div>
+                    <div class="col">Top năm</div>
+                </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="row">
+                        <div class="col-2"><button type="button" class="btn btn-danger"style="border-radius:20px 20px 20px 20px">1</button></div>
+                        <div class="col-1"><img src="img/thethao.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                        <div class="col-4"style="margin-left:50px;"><b>Thể Thao CH</b>
+                        <br>Chapter 459
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 150px;margin-top:-95px">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                        </div>
+                    </div> 
+                    <div class="row mt-2">
+                        <div class="col-2"><button type="button" class="btn btn-primary"style="border-radius:20px 20px 20px 20px">2</button></div>
+                        <div class="col-1"><img src="img/hddk.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                        <div class="col-4"style="margin-left:50px;"><b>Hoán Đổi DK</b>
+                        <br>Chapter 449
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 150px;margin-top:-95px">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                        </div>
+                    </div> 
+                    <div class="row mt-2">
+                        <div class="col-2"><button type="button" class="btn btn-warning"style="border-radius:20px 20px 20px 20px">3</button></div>
+                        <div class="col-1"><img src="img/nguoix.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                        <div class="col-4"style="margin-left:50px;"><b>Người Xấu</b>
+                        <br>Chapter 159
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 150px;margin-top:-95px">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                        </div>
+                    </div> 
+                    <div class="row mt-2">
+                        <div class="col-2"><button type="button" class="btn btn-success"style="border-radius:20px 20px 20px 20px">4</button></div>
+                        <div class="col-1"><img src="img/hccd.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                        <div class="col-4"style="margin-left:50px;"><b>Học Cách CD</b>
+                        <br>Chapter 79
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 150px;margin-top:-95px">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                        </div>
+                    </div> 
+                    <div class="row mt-2">
+                        <div class="col-2"><button type="button" class="btn btn-info"style="border-radius:20px 20px 20px 20px">5</button></div>
+                        <div class="col-1"><img src="img/dqgia.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                        <div class="col-4"style="margin-left:50px;"><b>Quán Gia</b>
+                        <br>Chapter 367
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 150px;margin-top:-95px">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                            <img src="img/timred.png"style="width:25px" alt="">
+                        </div>
+                    </div> 
+                    <div class="row mt-2">
+                        <div class="col text-center"><button type="button" class="btn btn-primary">Xem Thêm</button></div>
+                    </div>
+                </a>
+              </div>
+        </div>
+      </div>
+      <div class="row"style="margin-top:-750px;">
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 80px;">
+              <a href="hoason.html">  <img src="img/hstk.jpg" alt="Avatar" style="width:135px"></a>
+                <div>
+                  <h6>Hoa Sơn Tái Khởi</h6> 
+                  <p>Chapter 1 REMAKE</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 40px;">
+                <a href="sola.html">         <img src="img/sdt.jpg" alt="Avatar" style="width:140px"></a>
+                <div>
+                  <h6>SOTLATO</h6> 
+                  <p>Chapter 31</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 30px;">
+                <a href="ganzu.html">    <img src="img/qvgz.jpg" alt="Avatar" style="width:150px"></a>
+                <div>
+                  <h6>Quái Vật Ganzu</h6> 
+                  <p>Chapter 51</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 ">
+            <div class="  " style="width: 11rem;margin-left: 30px;">
+                <a href="dtvh.html">    <img src="img/dtvh.jpg" alt="Avatar" style="width:140px"></a>
+                <div>
+                  <h6>Đại Tượng Vô Hình</h6> 
+                  <p>Chapter 386</p> 
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 80px;">
+                <img src="img/dacvu.jpg" alt="Avatar" style="width:137px">
+                <div>
+                  <h6>Đặc Vụ Thế Thân</h6> 
+                  <p>Chapter 22</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 40px;">
+                <img src="img/cmkt.jpg" alt="Avatar" style="width:133px">
+                <div>
+                  <h6>Chưởng Môn Khiêm...</h6> 
+                  <p>Chapter 207</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 30px;">
+                <img src="img/fff.jpg" alt="Avatar" style="width:134px">
+                <div>
+                  <h6>FFF-Class Hero</h6> 
+                  <p>Chapter 89</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 ">
+            <div class="  " style="width: 11rem;margin-left: 30px;">
+                <img src="img/thanhnhan.jpg" alt="Avatar" style="width:128px">
+                <div>
+                  <h6>Trở Thành Thánh Nhân</h6> 
+                  <p>Chapter 12</p> 
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="list-group mt-2"style="width:900px;margin-left:80px">
+        <a href="#" class="list-group-item list-group-item-action">
+         <div class="row">
+             <div class="col"><B></B><h6>NHÓM DỊCH</h6></B></div>
+        </div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+        <div class="row"> 
+            <div class="col">
+                <img src="img/avt1.jpeg"style="border-radius:50px 50px 50px 50px" alt="">
+                <br><b>Manhua Truyện</b>
+            </div>
+            <div class="col">
+                <img src="img/miu.jpg"style="border-radius:50px 50px 50px 50px" alt="">
+                <br><b>Miu Miu Truyện</b>
+            </div>
+            <div class="col">
+                <img src="img/tinh.jpg"style="border-radius:50px 50px 50px 50px" alt="">
+                <br><b>Tĩnh Nguyệt Nhóm</b>
+            </div>
+            <div class="col">
+                <img src="img/aqn.jpg"style="border-radius:50px 50px 50px 50px" alt="">
+                <br><b>AQN</b>
+            </div>
+            <div class="col">
+                <img src="img/thien.png"style="border-radius:50px 50px 50px 50px" alt="">
+                <br><b>Trảm Thiên </b>
+            </div>
+        </div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+        <div class="col text-center"><button type="button" class="btn btn-primary">Xem Thêm</button></div>
+    </a>
+    </div>
+</div> <div class="list-group mt-4"style="width:900px;margin-left:80px">
+  <a href="#" class="list-group-item list-group-item-action"><b>ĐỀ XUẤT</b></a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+  <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-primary">Manhwa</button>
+      </div>
+      <div class="col"style="margin-left:-600px;margin-top:8px;"><b>Manhua</b></div>
+      <div class="col"style="margin-left:-600px;margin-top:8px;"><b>Manga</b></div>
+  </div>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light"style="height:580px;">
+         <div class="row">
+          <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 5px;">
+                <img src="img/tav3.jpg" alt="Avatar" style="width:137px">
+                <div>
+                  <h6>Thế Thân</h6> 
+                  <p>Chapter 22</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2"style="margin-left: 80px;">
+            <div class="  " style="width: 11rem;">
+                <img src="img/tav4.jpg" alt="Avatar" style="width:139px">
+                <div>
+                  <h6>Ma Vương</h6> 
+                  <p>Chapter 207</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2"style="margin-left: 80px;">
+            <div class="  " style="width: 11rem;">
+                <img src="img/tav5.jpg" alt="Avatar" style="width:138px">
+                <div>
+                  <h6>Toàn Cầu Dị Năng</h6> 
+                  <p>Chapter 89</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 "style="margin-left: 80px;">
+            <div class="  " style="width: 11rem;">
+                <img src="img/tav6.jpg" alt="Avatar" style="width:147px">
+                <div>
+                  <h6>The Blod</h6> 
+                  <p>Chapter 12</p> 
+                </div>
+            </div>
+        </div>
+         </div>
+         <div class="row">
+          <div class="col-2 md-2">
+            <div class="  " style="width: 11rem;margin-left: 5px;">
+                <img src="img/tav7.jpg" alt="Avatar" style="width:143px">
+                <div>
+                  <h6>Anh Hùng</h6> 
+                  <p>Chapter 22</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2"style="margin-left: 80px;">
+            <div class="  " style="width: 11rem;">
+                <img src="img/tav8.jpg" alt="Avatar" style="width:139px">
+                <div>
+                  <h6>Săn Người</h6> 
+                  <p>Chapter 207</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 md-2"style="margin-left: 80px;">
+            <div class="  " style="width: 11rem;">
+                <img src="img/tav9.jpg" alt="Avatar" style="width:136px">
+                <div>
+                  <h6>Kiếm sư</h6> 
+                  <p>Chapter 89</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-2 "style="margin-left: 80px;">
+            <div class="  " style="width: 11rem;">
+                <img src="img/tav10.jpg" alt="Avatar" style="width:148px">
+                <div>
+                  <h6>Đệ Nhất</h6> 
+                  <p>Chapter 12</p> 
+                </div>
+            </div>
+        </div>
+         </div>
+  </a>
+  <div class="row"style="margin-left:280px;margin-top:-50px;">
+    <div class="col">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+  <div class="list-group mt-4"style="width:900px;margin-left:80px">
+    <a href="#" class="list-group-item list-group-item-action"><b>ĐỊNH KỲ</b></a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+    <div class="row">
+        <div class="col-2">
+          <button type="button" class="btn btn-primary">Hàng ngày</button>
+        </div>
+        <div class="col"style="margin-top:8px;"><b>Thứ hai</b></div>
+        <div class="col"style="margin-top:8px;"><b>Thứ ba</b></div>
+        <div class="col"style="margin-top:8px;"><b>Thứ tư</b></div>
+        <div class="col"style="margin-top:8px;"><b>Thứ năm</b></div>
+        <div class="col"style="margin-top:8px;"><b>Thứ sáu</b></div>
+        <div class="col"style="margin-top:8px;"><b>Thứ bảy</b></div>
+        <div class="col"style="margin-top:8px;"><b>Chủ nhật</b></div>
+    </div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-light"style="height:630px;">
+           <div class="row">
+            <div class="col-2 md-2">
+              <div class="  " style="width: 11rem;margin-left: 5px;">
+                  <img src="img/tav11.jpg" alt="Avatar" style="width:137px">
+                  <div>
+                    <h6>Thẻ Bài Đỏ</h6> 
+                    <p>Chapter 22</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 md-2"style="margin-left: 80px;">
+              <div class="  " style="width: 11rem;">
+                  <img src="img/tav15.png" alt="Avatar" style="width:158px">
+                  <div>
+                    <h6>Huyết Tọa</h6> 
+                    <p>Chapter 207</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 md-2"style="margin-left: 80px;">
+              <div class="  " style="width: 11rem;">
+                  <img src="img/tav13.jpg" alt="Avatar" style="width:136px">
+                  <div>
+                    <h6>Mạc Cốt Sư</h6> 
+                    <p>Chapter 89</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 "style="margin-left: 80px;">
+              <div class="  " style="width: 11rem;">
+                  <img src="img/tav16.jfif" alt="Avatar" style="width:160px">
+                  <div>
+                    <h6>Vương Tử</h6> 
+                    <p>Chapter 12</p> 
+                  </div>
+              </div>
+          </div>
+           </div>
+           <div class="row">
+            <div class="col-2 md-2">
+              <div class="  " style="width: 11rem;margin-left: 5px;">
+                  <img src="img/tav21.jpg" alt="Avatar" style="width:143px">
+                  <div>
+                    <h6>Ta Là Mèo</h6> 
+                    <p>Chapter 22</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 md-2"style="margin-left: 80px;">
+              <div class="  " style="width: 11rem;">
+                  <img src="img/tav18.jpg" alt="Avatar" style="width:148px">
+                  <div>
+                    <h6>Touch</h6> 
+                    <p>Chapter 207</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 md-2"style="margin-left: 80px;">
+              <div class="  " style="width: 11rem;">
+                  <img src="img/tav19.jpg" alt="Avatar" style="width:158px">
+                  <div>
+                    <h6>Đọa Nhân</h6> 
+                    <p>Chapter 89</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 "style="margin-left: 80px;">
+              <div class="  " style="width: 11rem;">
+                  <img src="img/tav10.jpg" alt="Avatar" style="width:157px">
+                  <div>
+                    <h6>Phée Vật Là Ta</h6> 
+                    <p>Chapter 12</p> 
+                  </div>
+              </div>
+          </div>
+           </div>
+    </a>
+    <div class="row"style="margin-left:280px;margin-top:-60px;">
+      <div class="col">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+        </ul>
+      </div>
+     </div>
+    </div>
+  
+</div>
+</div>
+<div class="container6 mt-4">
+    <div class="row p-2 pt-4">
+        <div class="col-1"></div>
+    <div class="col-4">
+        <img src="img/logo.png"style="width:200px;" alt="">
+        <div class="hr"style="width:385px;background: grey;"><hr></div>
+        <br>
+        <div class=" text-white"style="margin-right:100px;margin-top:-25px">Vlogtruyen.net - Kho truyện tranh online miễn phí | Truyện Hay. Truyện Mới. Website luôn cập nhập những bộ truyện mới nhất thuộc các thể loại đặc sắc như truyện tiên hiệp, kiếm hiệp, truyện teen, tiểu thuyết ngôn tình hay nhất. Hỗ trợ mọi thiết bị di động và máy tính bảng ...
+
+        </div>
+    </div>
+    <div class="col text-white">
+        <div class="ext"><h3>Liên Hệ</h3></div>
+        <div class="hr"style="width:385px;background: grey;"><hr></div>
+       <img src="img/mail.jpg"style="width:20px;" alt=""> Email: Huynhthanhnha123123@gmail.com
+        <br><img src="img/vll.jpg"style="width:20px;" alt=""> Fanpage: https://www.facebook.com/thanhnha0308.com
+        <br><img src="img/phone.png"style="width:20px;" alt="">0355837237
+    </div>
+    <div class="col text-white"style="margin-top:20px">
+        <div class="ext"><h3>Trụ Sở Chính</h3></div>
+        <div class="hr"style="width:385px;background: grey;"><hr></div>
+        <img src="img/map.jpg"style="width:50px;" alt="">38 Đường số 3, khu dân cư Trung sơn, Bình Chánh,TP.HCM
+    </div>
+</div>
+</div>
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <div class="row">
+                <div class="col mb-2"style="margin-left:195px">
+                    <img src="img/fb.png"style="width:25px" alt="">
+                    <img src="img/gg.jpg"style="width:25px" alt="">
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col"style="margin-left:200px"> 
+                    <b>Hoặc</b>
+                </div>
+            </div>
+            <div class="row mt-1 text-center">
+                <div class="col"style="font-size:20px;margin-left:165px">
+                    <b>ĐĂNG NHẬP</b>
+                </div>
+            </div>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="mb-3 mt-1">
+                  <input type="email" class="form-control"style="background-color: #E5E7E9;" id="email" placeholder="Nhập vào tên đăng nhập" name="email">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control"style="background-color: #E5E7E9;" id="pwd" placeholder="Mật khẩu" name="pswd">
+                </div>
+                <div class="form-check"style="margin-top:-25px;">
+                </div>
+                <button type="submit" class="btn btn-danger">Đăng nhập</button>
+              </form>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal" id="myModal-signup">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <div class="row">
+                <div class="col mb-2"style="margin-left:195px">
+                    <img src="img/fb.png"style="width:25px" alt="">
+                    <img src="img/gg.jpg"style="width:25px" alt="">
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col"style="margin-left:200px"> 
+                    <b>Hoặc</b>
+                </div>
+            </div>
+            <div class="row mt-1 text-center">
+                <div class="col"style="font-size:20px;margin-left:165px">
+                    <b>ĐĂNG KÝ</b>
+                </div>
+            </div>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="mb-3 mt-1">
+                  <input type="email" class="form-control"style="background-color: #E5E7E9;" id="email" placeholder="Nhập vào tên đăng nhập" name="email">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control"style="background-color: #E5E7E9;" id="pwd" placeholder="Mật khẩu" name="pswd">
+                </div>
+                <div class="mb-3 mt-1">
+                    <input type="email" class="form-control"style="background-color: #E5E7E9;" id="email1" placeholder="Xác nhận mật khẩu" name="email">
+                  </div>
+                  <div class="mb-3 mt-1">
+                    <input type="email" class="form-control"style="background-color: #E5E7E9;" id="email2" placeholder="Email" name="email">
+                  </div>
+                  <div class="mb-3 mt-1">
+                    <input type="email" class="form-control"style="background-color: #E5E7E9;" id="email3" placeholder="Số điện thoại" name="email">
+                  </div>
+                <div class="form-check"style="margin-top:-25px;">
+                </div>
+                <button type="submit" class="btn btn-danger"data-bs-toggle="modal" data-bs-target="#myModal-aray">Đăng ký</button>
+              </form>
+        </div>
+      </div>
+    </div>
+   
+</div>
+<div class="modal" id="myModal-aray">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Đăng ký thành công</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            background-color: #E5E7E9;
+        }
+        .imagechange{
+            width: 189.8px;
+            margin-right: 4px;
+        }
+        div.container2{
+            text-align: center;
+        }
+        a1{
+            margin-left: 4px;
+        }
+        .container5{
+            background-color: #E5E7E9;
+        }
+        .container6{
+            background-color:#302F2E;
+        }
+        .tamly{
+            margin-right: 30px;
+
+        }
+        .div2{
+            background-color: #E5E7E9;
+            width:11rem;
+        }
+        .divtam{
+            width:60%;
+            margin-left: 100px;
+        }
+        .dvily{
+            width:60%;
+            margin-left: 100px;
+        }
+        /* .bxh{
+            margin-top: -150px;
+            margin-left: -10px;
+        } */
+        .container6{
+        background-color:#302F2E;
+    }
+.scrollbar-dusty-grass::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+    width:5px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(330deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)
+}
+
+div.ex3 {
+  background-color: lightblue;
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+}
+.example-1 {
+    
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+    </style>
+</head>
+<body>
+   <div class="container6">
+        <div class="container-fuild mid-menu" style="background-color: #E5E7E9;">
+            <div class="row ">
+                <div class="col"><img src="/img/logo.png"style="width:150px;" alt="">
+                </div>
+                <div class="col"><input type="text" class="form-control" placeholder="Nhập tên truyện"style="margin-left:300px;">
+                </div>
+                <div class="col"><button type="button" class="btn btn-primary"style="margin-left:300px;">Đăng nhập</button>
+                </div>
+            </div>
+            <div class="container2-centered">
+                <div class="container2-fuild mid-menu">
+                    <div class="row r2 mx-2 bg-primary">
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link text-white" href="#">HOT</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white" href="#">MỚI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown">THỂ LOẠI</a>
+                            <ul class="dropdown-menu bg-dark">
+                                <div class="row">
+                                    <div class="col">
+                                        <li><a class="dropdown-item text-white" href="#">Đã hoàn thành</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Đang tiến hành</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Shoujo AI</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Honor</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Smurf</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Webtoon</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Hệ thống</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Xuyên không</a></li>
+                                    </div>
+                               <div class="col">
+                                <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Yaoi</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Adventure</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Chuyển Sinh</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Doujinshi</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Fantasy</a></li>
+                               </div>
+                               <div class="col">
+                                <li><a class="dropdown-item text-white" href="#">Manhwa</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Mecha</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Shoujo</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Trinh Thám</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Xuyên Không</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Truyện Màu</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Isekai</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Mecha</a></li>
+                               </div>
+                               
+                            </div>
+                            </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">YÊU THÍCH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">LỊCH SỬ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">THEO DÕI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">ĐĂNG TRUYỆN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">MANGA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">MANHUA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">NOVEL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">NẠP XU</a>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">              <div class="divtam"style="background-color: white;">
+                        <div class="row">
+                            <div class="col-2 mt-1">
+                                <div class="  " style="width: 11rem;margin-left: 10px;">
+                                    <img src="/img/qvgz.jpg" alt="Avatar" style="width:150px;height: 270px;">
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <div class="tamly"style="margin-left:35px">
+                                      <h4>Quái Vật Ganzu</h4> 
+                                      <br>
+                                      <div class="row">
+                                        <div class="col"style="margin-top:-20px ;">
+                                            <button type="button" class="btn btn-primary"><img src="/img/lik3.png"style="width:20px;margin-top:-6px" alt="like"> Like 0</button>
+                                            <button type="button" class="btn btn-primary">Share</button>
+                                        </div>
+                                    
+                                       <div class="row">
+                                        <div class="col-11">
+                                            Không rõ từ đầu và làm thế nào, lũ quái vật từ không gian lạ bỗng xuất hiện và hủy diệt thế giới. Dưới sức mạnh áp đảo của bọn quái vật, nhân loại gần như bước đến bờ vực tuyệt chủng. Tuy vậy nhân loại vẫn còn một hi vọng mỏng manh, Hanaro - một nam sinh có sức mạnh siêu năng đang ra sức bảo vệ những người vô tội! Thế nhưng, chỉ mới mấy tháng trước Hanaro vẫn còn là một nam sinh yếu đuối bị cô lập tại trường học. Vậy chuyện gì đã xảy ra? Thứ gì đã khiến Hanaro trở thành nhân loại mạnh nhất, đồng thời cũng là mục tiêu mà bọn quái vật nhắm đến?
+    
+                                        </div>
+                                       </div>
+                                       <div class="row">
+                                        <div class="col-1 text-info"style="font-size:14px;">
+                                           <b>Tác Giả</b> 
+                                        </div>
+                                        <div class="col-5 text-info"style="font-size:14px;margin-left:35px;">
+                                            <b>Lượt xem</b> 
+                                         </div>
+                                       </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col"style="font-size:14px;margin-left:530px;margin-top:-40px">
+                                            21,378
+                                         </div>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-3"style="margin-left:23px">
+                                        <div class="col-2 text-info"style="font-size:14px;">
+                                            <b>Thể loại</b> 
+                                         </div>
+                                         <div class="col-1"><button type="button" class="btn btn-outline-info">Action</button>
+                                            <button type="button" class="btn btn-outline-info"style="margin-top:-65px;margin-left:90px;">Manhua</button>
+                                            <button type="button" class="btn btn-outline-info"style="margin-top:-114px;margin-left:190px;width:120px">Xuyên không</button>
+                                            <button type="button" class="btn btn-outline-info"style="margin-top:-160px;margin-left:325px;width:90px">Cổ đại</button>
+                                        </div>
+                                         <!-- <div class="col mx-1"><button type="button" class="btn btn-outline-info">Manhua</button></div>
+                                         <div class="col mx-1"><button type="button" class="btn btn-outline-info">Xuyên không</button></div>
+                                         <div class="col mx-1"><button type="button" class="btn btn-outline-info">Cổ đại</button></div>
+                                         <div class="col mx-1"><button type="button" class="btn btn-outline-info">Hệ thống</button></div> -->
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 text-info"style="font-size:14px;margin-top:-60px;margin-left:32px">
+                                        <b>Nhóm dịch</b>
+                                        </div>
+                                        <div class="col">
+                                        <img src="/img/dich1.jpeg"style="margin-top:-70px;width:60px;margin-right:30px;" alt="">
+                                        <br>
+                                        <div class="cc text-info">
+                                            MGN TEAM
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 10px;margin-top:-140px">
+                            <button type="button" class="btn btn-primary"><img src="/img/sa3.png"style="width:15px" alt="">Theo dõi</button>
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col"style="margin-left: 10px;margin-top:-90px">
+                            <img src="/img/timred.png"style="width:25px" alt="">
+                            <img src="/img/timred.png"style="width:25px" alt="">
+                            <img src="/img/timred.png"style="width:25px" alt="">
+                            <img src="/img/timred.png"style="width:25px" alt="">
+                            <img src="/img/timred.png"style="width:25px" alt="">
+                        </div>
+                    </div>
+    </div></div>
+                    <div class="col">
+                        <div class="history"style="margin-left:1030px;margin-top:-450px;">
+                        <div class="list-group mt-1" style="width:350px;margin-top: -50px">
+                            <a href="#" class="list-group-item list-group-item-action"><b>LỊCH SỬ</b></a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-1"><img src="/img/thethao.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                    <div class="col-4"style="margin-left:60px;"><b>Thể Thao CH</b>
+                                    <br>Chapter 459
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col"style="margin-left: 82px;margin-top:-70px;">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                    </div>
+                                </div> 
+                                <div class="row mt-1">
+                                    <div class="col"style="margin-left: 82px;margin-top:-45px">
+                                        <button type="button" class="btn btn-danger btn-sm">
+                                            <img src="/img/trash2.png"style="width:16px;" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"><img src="/img/26.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                    <div class="col-4"style="margin-left:60px;"><b>Thiết Huyết Kiếm Sĩ</b>
+                                    <br>Chapter 32
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col"style="margin-left: 82px;margin-top:-70px">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col"style="margin-left: 82px;margin-top:-45px">
+                                        <button type="button" class="btn btn-danger btn-sm">
+                                            <img src="/img/trash2.png"style="width:16px;" alt="">
+                                        </button>
+                                    </div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-1"><img src="/img/dacvu.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                    <div class="col-4"style="margin-left:60px;"><b>Đặc Vụ Song Sinh</b>
+                                    <br>Chapter 21
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col"style="margin-left: 82px;margin-top:-70px">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                        <img src="/img/timred.png"style="width:25px" alt="">
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col"style="margin-left: 82px;margin-top:-45px">
+                                        <button type="button" class="btn btn-danger btn-sm">
+                                            <img src="/img/trash2.png"style="width:16px;" alt="">
+                                        </button>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                    </div>
+                   <div class="bxh">
+                    <div class="list-group mt-1" style="width:365px;margin-top:-900px;margin-left:1030px;">
+                        <a href="#" class="list-group-item list-group-item-action"><b>BẢNG XẾP HẠNG</b></a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+                        <div class="row">
+                            <div class="col"><b>Top tuần</b></div>
+                            <div class="col">Top tháng</div>
+                            <div class="col">Top năm</div>
+                        </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col-2"><button type="button" class="btn btn-danger"style="border-radius:20px 20px 20px 20px">1</button></div>
+                                <div class="col-1"><img src="/img/thethao.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                <div class="col-4"style="margin-left:60px;"><b>Thể Thao CH</b>
+                                <br>Chapter 459
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col"style="margin-left: 150px;margin-top:-70px">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                            </div> 
+                            <div class="row mt-2">
+                                <div class="col-2"><button type="button" class="btn btn-primary"style="border-radius:20px 20px 20px 20px">2</button></div>
+                                <div class="col-1"><img src="/img/hddk.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                <div class="col-4"style="margin-left:60px;"><b>Hoán Đổi DK</b>
+                                <br>Chapter 449
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col"style="margin-left: 150px;margin-top:-70px">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                            </div> 
+                            <div class="row mt-2">
+                                <div class="col-2"><button type="button" class="btn btn-warning"style="border-radius:20px 20px 20px 20px">3</button></div>
+                                <div class="col-1"><img src="/img/nguoix.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                <div class="col-4"style="margin-left:60px;"><b>Người Xấu</b>
+                                <br>Chapter 159
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col"style="margin-left: 150px;margin-top:-95px">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                            </div> 
+                            <div class="row mt-2">
+                                <div class="col-2"><button type="button" class="btn btn-success"style="border-radius:20px 20px 20px 20px">4</button></div>
+                                <div class="col-1"><img src="/img/hccd.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                <div class="col-4"style="margin-left:60px;"><b>Học Cách CD</b>
+                                <br>Chapter 79
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col"style="margin-left: 150px;margin-top:-70px">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                            </div> 
+                            <div class="row mt-2">
+                                <div class="col-2"><button type="button" class="btn btn-info"style="border-radius:20px 20px 20px 20px">5</button></div>
+                                <div class="col-1"><img src="/img/dqgia.jpg"style="width:80px;height:140px;margin-right:120px;" alt=""></div>
+                                <div class="col-4"style="margin-left:60px;"><b>Quán Gia</b>
+                                <br>Chapter 367
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col"style="margin-left: 150px;margin-top:-95px">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                            </div> 
+                            <div class="row mt-2">
+                                <div class="col text-center"><button type="button" class="btn btn-primary">Xem Thêm</button></div>
+                            </div>
+                        </a>
+                      </div>
+                </div>
+                </div>
+                    <div class="row"style="margin-top:-950px;">
+                        <div class="col text-white text-center">
+                            <button type="button" class="btn btn-secondary btn-sm"style="width:150px;height:70px:font-size:8px;">
+                                Chương đầu
+                                <br>Chapter 1
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-secondary btn-sm"style="width:150px;height:70px:font-size:8px;">
+                                Chương mới nhất
+                                <br>Chapter 25
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row"style="margin-top:-870px;">
+                        <div class="col">
+                            <div class="dvily"style="background-color: white;height:110px;">
+                                * Chọn một hoặc nhiều chương để mua cùng lúc
+                                <br><input type="text" class="form-control"style="width:880px;margin-left:5px" placeholder="Nhập vào số chương">
+                               <div style="text-align: center;"> 
+                                    <button type="button" class="btn btn-secondary btn-sm "style="width:150px;height:70px:font-size:8px;margin-top:5px;text-center;">
+                                    Mua chương
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="test"style="width:1020px;">
+                    <div class="row"style="margin-left:82px;margin-top:-750px">
+                        <div class="col">
+                            <h5><b>DANH SÁCH CHƯƠNG</b></h5>
+                            <div class="card example-1 scrollbar-ripe-malinka"style="background: #ECF0F1;">
+                                <div class="card-body">
+                                  <h4 id="section1"></h4>
+                                <div class="row">
+                                    <div class="col">
+                                    <p> Chapter 22</p> 
+                                    <p> Chapter 21</p> 
+                                      <p> Chapter 20</p> 
+                                      <p> Chapter 19</p>  
+                                      <p> Chapter 18</p> 
+                                      <p> Chapter 17</p> 
+                                      <p> Chapter 16</p> 
+                                      <p> Chapter 15</p> 
+                                      <p> Chapter 14</p> 
+                                      <p> Chapter 13</p> 
+                                      <p> Chapter 12</p> 
+                                      <p> Chapter 11</p> 
+                                      <p> Chapter 10</p> 
+                                      <p> Chapter 9</p> 
+                                      <p> Chapter 8</p> 
+                                      <p> Chapter 7</p> 
+                                      <p> Chapter 6</p> 
+                                      <p> Chapter 5</p> 
+                                      <p> Chapter 4</p> 
+                                      <p> Chapter 3</p> 
+                                      <p> Chapter 2</p> 
+                                      <p> Chapter 1</p> 
+                                    </div>
+                                    <div class="col text-danger"style="margin-right:-620px">
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                        <p>500 <img src="img/o1.png"style="width:20px" alt=""></p>
+                                    </div>
+                                    <div class="col"style="margin-right:-600px">
+                                        <p>27-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>27-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>27-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>20-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>20-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>20-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>13-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>13-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>13-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>12-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>11-5-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>30-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>30-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>30-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>23-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>23-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>23-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>16-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>16-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                        <p>16-4-2023<img src="img/sb.png"style="width:20px" alt=""></p>
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="tuongtu"style="margin-left:92px;margin-top:30px;">
+                        <div class="list-group mt-1" style="width:900px;">
+                            <a href="#" class="list-group-item list-group-item-action"><b>TRUYỆN TƯƠNG TỰ</b></a>
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+                            <div class="row ">
+                                <div class="col">
+                                   <img src="img/dtvh.jpg"style="width:110px;height:170px" alt="">
+                                   <p><b>Đại Tượng Vh</b></p>
+                                   <p class=""style="margin-top:-15px ;">Chapter 386</p>
+                                   <p class=""style="margin-top:-15px ;"></p>
+                                   <img src="/img/timred.png"style="width:25px" alt="">
+                                   <img src="/img/timred.png"style="width:25px" alt="">
+                                   <img src="/img/timred.png"style="width:25px" alt="">
+                                   <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                                <div class="col"style="margin-right:480px">
+                                    <img src="img/dqgia.jpg"style="width:110px;height:170px" alt="">
+                                    <p><b>Quản Gia</b></p>
+                                    <p class=""style="margin-top:-15px ;">Chapter 367</p>
+                                    <p class=""style="margin-top:-15px ;"></p>
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                 </div>
+                                </div>
+                                <div class="col"style=";margin-top:-248px;margin-left:380px;">
+                                    <img src="img/11.jpg"style="width:110px;height:170px" alt="">
+                                    <p><b>Lạn Kha Kỳ Duyên</b></p>
+                                    <p class=""style="margin-top:-15px ;">Chapter 19</p>
+                                    <p class=""style="margin-top:-15px ;"></p>
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                                <div class="col"style=";margin-top:-248px;margin-left:580px;">
+                                    <img src="img/41.jpg"style="width:110px;height:170px" alt="">
+                                    <p><b>Đế Hoàng</b></p>
+                                    <p class=""style="margin-top:-15px ;">Chapter 38</p>
+                                    <p class=""style="margin-top:-15px ;"></p>
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                                <div class="col"style=";margin-top:-248px;margin-left:750px;">
+                                    <img src="img/11.jpg"style="width:110px;height:170px" alt="">
+                                    <p><b>Kiếm Thánh</b></p>
+                                    <p class=""style="margin-top:-15px ;">Chapter 62</p>
+                                    <p class=""style="margin-top:-15px ;"></p>
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                    <img src="/img/timred.png"style="width:25px" alt="">
+                                </div>
+                            </div>
+                            </a>
+                    </div>
+                    <div class="row mt-2"style="margin-left:92px">
+                        <div class="col text-danger">
+                            <img src="img/cmt1.png"style="width:50px" alt=""><B>BÌNH LUẬN</B>
+                        </div>
+                        <div class="col"style="margin-top:11px;margin-left:-600px">
+                            <img src="img/vll.jpg"style="width:30px" alt=""><B>BÌNH LUẬN FACEBOOK</B>
+                        </div>
+                    </div>
+                    <div class="row mt-3"style="margin-left:92px">
+                            <div class="col">
+                                <img src="img/avatar-default.png"style="width:100px;" alt="">
+                            </div>
+                            <div class="col"style="margin-left:-650px">
+                                <div class="list-group mt-1"style="width:500px;height:300px;">
+                                    <a href="#" class="list-group-item list-group-item-action"style="width:500px;height:40px;">
+                                        <img src="img/ic-removebg-preview.png"style="width:40px;" alt="">
+                                        <img src="img/ic1-removebg-preview.png"style="width:30px;" alt="">
+                                        <img src="img/ic2-removebg-preview.png"style="width:40px;" alt="">
+                                        <img src="img/ic3-removebg-preview.png"style="width:27px;" alt="">
+                                        <img src="img/ic4-removebg-preview.png"style="width:26px;" alt="">
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action"style="width:500px;height:100px;"></a>
+                            </div>
+                            <div class="col"style="margin-top:-130px;">
+                                <button type="submit" class="btn btn-primary"style="width:70px;height:40px;font-size:20px">Gửi</button>
+                            </div>
+                        <div class="row mt-4"style="margin-left:-150px;">
+                            <div class="col">
+                                <b>Sắp xếp</b>
+                            </div>
+                            <div class="col"style="margin-left:-750px;margin-top:-8px">
+                                <select class="form-select"style="width:120px;height:35px;">
+                                    <option><b>Hot nhất</b></option>
+                                    <option>Mới nhất</option>
+                                    <option>Cũ nhất</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="row mt-4"style="margin-left:-130px;">
+                            <div class="col">
+                                <img src="img/tav.jpg"style="width:50px;border-radius:25px;25px;25px;25px;" alt="">
+                            </div>
+                            <div class="col">
+                                <div class="list-group mt-1"style="width:500px;height:300px;margin-left:-380px;">
+                                    <a href="#" class="list-group-item list-group-item-action"style="width:500px;height:100px;border-style:solid;background-color: #E5E7E9;">
+                                       <p>Red Velvet<div class="claa text-primary"style="margin-top:-40px;margin-left:100px;">Chapter 15</div></p>
+                                       <div class="aa"style="margin-top:-11px;">Main đỉnh của đỉnh</div>
+                                       <div class="like text-primary"><img src="img/like5-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">like(0)</div>
+                                       <div class="like text-primary"style="margin-top:-23px;margin-left:70px;"><img src="img/lie-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">dislike(0)</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/hi.jpeg"style="width:50px;border-radius:25px;25px;25px;25px;margin-left:-120px;margin-top:-300px" alt="">
+                            </div>
+                            <div class="col">
+                                <div class="list-group mt-1"style="width:500px;height:300px;margin-left:-380px;">
+                                    <a href="#" class="list-group-item list-group-item-action"style="margin-left:-60px;margin-top:-170px;width:500px;height:100px;border-style:solid;background-color: #E5E7E9;">
+                                       <p>Quoc Anh<div class="claa text-primary"style="margin-top:-40px;margin-left:100px;">Chapter 20</div></p>
+                                       <div class="aa"style="margin-top:-11px;">Aaaaaa nhanh ra chap mới diiii</div>
+                                       <div class="like text-primary"><img src="img/like5-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">like(0)</div>
+                                       <div class="like text-primary"style="margin-top:-23px;margin-left:70px;"><img src="img/lie-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">dislike(0)</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin-top:-170px">
+                            <div class="col">
+                                <img src="img/tav1.jpg"style="width:50px;border-radius:25px;25px;25px;25px;margin-left:-120px;margin-top:-300px" alt="">
+                            </div>
+                            <div class="col">
+                                <div class="list-group mt-1"style="width:500px;height:300px;margin-left:-380px;">
+                                    <a href="#" class="list-group-item list-group-item-action"style="margin-left:-60px;margin-top:-170px;width:500px;height:100px;border-style:solid;background-color: #E5E7E9;">
+                                       <p>Mèo Béo<div class="claa text-primary"style="margin-top:-40px;margin-left:100px;">Chapter 1</div></p>
+                                       <div class="aa"style="margin-top:-11px;">Truyện tệ vậy mà cũng có người đọc?</div>
+                                       <div class="like text-primary"><img src="img/like5-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">like(0)</div>
+                                       <div class="like text-primary"style="margin-top:-23px;margin-left:70px;"><img src="img/lie-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">dislike(0)</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin-top:-170px">
+                            <div class="col">
+                                <img src="img/tav2.jpg"style="width:50px;border-radius:25px;25px;25px;25px;margin-left:-120px;margin-top:-300px" alt="">
+                            </div>
+                            <div class="col">
+                                <div class="list-group mt-1"style="width:500px;height:300px;margin-left:-380px;">
+                                    <a href="#" class="list-group-item list-group-item-action"style="margin-left:-60px;margin-top:-170px;width:500px;height:100px;border-style:solid;background-color: #E5E7E9;">
+                                       <p>Huyền Lê<div class="claa text-primary"style="margin-top:-40px;margin-left:100px;">Chapter 5</div></p>
+                                       <div class="aa"style="margin-top:-11px;">Mỗi người mỗi cảm nhận theo mình thì truyện hay:333</div>
+                                       <div class="like text-primary"><img src="img/like5-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">like(0)</div>
+                                       <div class="like text-primary"style="margin-top:-23px;margin-left:70px;"><img src="img/lie-removebg-preview.png"style="width:17px;margin-top:-5px;" alt="">dislike(0)</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin-top:-350px">
+                            <div class="col">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+        </div>
+                </div>
+            </div>
+            <div class="container6 ">
+                <div class="row p-2 pt-4">
+                    <div class="col-1"></div>
+                <div class="col-4">
+                    <img src="/img/logo.png"style="width:200px;" alt="">
+                    <div class="hr"style="width:385px;background: grey;"><hr></div>
+                    <br>
+                    <div class=" text-white"style="margin-right:100px;margin-top:-25px">Vlogtruyen.net - Kho truyện tranh online miễn phí | Truyện Hay. Truyện Mới. Website luôn cập nhập những bộ truyện mới nhất thuộc các thể loại đặc sắc như truyện tiên hiệp, kiếm hiệp, truyện teen, tiểu thuyết ngôn tình hay nhất. Hỗ trợ mọi thiết bị di động và máy tính bảng ...
+            
+                    </div>
+                </div>
+                <div class="col text-white">
+                    <div class="ext"><h3>Liên Hệ</h3></div>
+                    <div class="hr"style="width:385px;background: grey;"><hr></div>
+                   <img src="img/mail.jpg"style="width:20px;" alt=""> Email: Huynhthanhnha123123@gmail.com
+                    <br><img src="img/vll.jpg"style="width:20px;" alt=""> Fanpage: https://www.facebook.com/thanhnha0308.com
+                    <br><img src="img/phone.png"style="width:20px;" alt="">0355837237
+                </div>
+                <div class="col text-white"style="margin-top:20px">
+                    <div class="ext"><h3>Trụ Sở Chính</h3></div>
+                    <div class="hr"style="width:385px;background: grey;"><hr></div>
+                    <img src="img/map.jpg"style="width:50px;" alt="">38 Đường số 3, khu dân cư Trung sơn, Bình Chánh,TP.HCM
+                </div>
+            </div>
+
+</body>
+</html>

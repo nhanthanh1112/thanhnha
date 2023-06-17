@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+         .container5{
+        background-color: #E5E7E9;
+    }
+    .container6{
+        background-color:#302F2E;
+    }
+    </style>
+</head>
+<body>
+    <div class="container5">
+    <div class="container-fuild mid-menu" style="background-color: #E5E7E9;">
+        <div class="row">
+            <div class="col"><a href="index.html"><img src="/img/logo.png"style="width:150px;" alt=""></a>
+            </div>
+            <div class="col"><input type="text" class="form-control" placeholder="Nhập tên truyện"style="margin-left:200px;">
+            </div>
+            <div class="col"><button type="button" class="btn btn-primary"style="margin-left:270px;"data-bs-toggle="modal" data-bs-target="#myModal">Đăng nhập</button>
+                <button type="button" class="btn btn-primary">Đăng ký</button>
+            </div>
+            </div>
+        </div>
+        <div class="container2-centered">
+            <div class="container2-fuild mid-menu">
+                <div class="row r2 mx-2 bg-primary">
+                    <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">HOT</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">MỚI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown">THỂ LOẠI</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item text-white" href="#">Đã hoàn thành</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Đang tiến hành</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Shoujo AI</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Honor</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Smurf</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Webtoon</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Hệ thống</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Xuyên không</a></li>
+                                </div>
+                           <div class="col">
+                            <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Yaoi</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Adventure</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Chuyển Sinh</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Doujinshi</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Fantasy</a></li>
+                           </div>
+                           <div class="col">
+                            <li><a class="dropdown-item text-white" href="#">Manhwa</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Mecha</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Shoujo</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Trinh Thám</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Xuyên Không</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Truyện Màu</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Isekai</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Mecha</a></li>
+                           </div>
+                           
+                        </div>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">YÊU THÍCH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">LỊCH SỬ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">THEO DÕI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ĐĂNG TRUYỆN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">MANGA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">MANHUA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">NOVEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">NẠP XU</a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-2"style="margin-left:20px;">
+                    <button type="button" class="btn btn-secondary">Lịch sử nạp tiền</button>
+                </div>
+                <div class="col-2"style="margin-left:-100px;">
+                    <button type="button" class="btn btn-secondary">Lịch sử nhận xu</button>
+                </div>
+            </div>
+            <div class="row mt-2 fuild-menu">
+                <div class="col">
+                    <button type="button" class="btn btn-primary"style="margin-left:680px;width:180px;height:80px">Xu của bạn: 0
+                        <br> <i>[Thường dân]</i>
+                    </button>
+                </div>
+            </div>
+           
+            <div class="row mt-3"style="margin-left:8px;">
+                  <div class="col"> 
+                    <div class="list-group mt-1" style="width:1390px;">
+                        <a href="#" class="list-group-item list-group-item-action"style="background-color:#C7F0F9;">
+                            <div class="tb text-info">
+                              <b>Thông báo</b>  
+                            </div>
+                            <p class="text-primary">
+                              <b> Nạp vào số điện thoại dễ bị thất lạc, vui lòng chọn vào mục bên dưới cách để nạp tiền.</b> 
+                              </p>
+                            <p class="text-danger"style="margin-top:-17px;">
+                                <b>*Quan trọng! Chỉ chấp nhận giao dịch từ 20,000đ, những giao dịch thấp hơn sẽ không được cộng xu.</b>
+                            </p>
+                                <p class="text-danger"style="margin-top:-17px;">
+                                    <b>*Quan trọng! Chỉ chấp nhận giao dịch từ 20,000đ, những giao dịch thấp hơn sẽ không được cộng xu</b>
+                                </p>
+                            <p class=""style="margin-top:-17px;">
+                              <i> Vui lòng liên hệ fanpage nếu bạn có bất kỳ thắc mắc nào!</i> 
+                            </p>
+                        </a>
+                  </div>
+            </div>
+            <div class="row mt-2"style="margin-left:2px;">
+                <div class="list-group mt-1" style="width:1400px;">
+                    <a href="#" class="list-group-item list-group-item-action"style="background-color: #ECF0F1;">
+                         <div class="row">
+                            <div class="col">
+                                  Thanh toán qua thẻ cào <img src="img/thecao.png"style="width:40px;" alt="">
+                            </div>
+                         </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action"style=";">
+                        <div class="row mt-4">
+                             <div class="col-6 text-primary"style="font-size:14px">
+                                <p>.: Vui lòng điền theo thông tin thẻ bên dưới, chọn mệnh giá và điền đầy đủ thông tin, 
+                                    hệ thống sẽ kiểm tra và nạp xu tương ứng cho bạn
+                                </p>
+                                <b> <p class=""style="margin-top:-15px;">.: Chú ý: Vui lòng chọn đúng mệnh giá, hệ thống rất xin lỗi và sẽ trừ 50% nếu bạn chọn sai.
+                                </p></b>
+                                <p class=""style="margin-top:-15px;">.: Xin cảm ơn!</p>
+                            </div>
+                            <div class="col mx-2"style="margin-top:-10px;font-size:14px">
+                                <div class="khung"style="width:600px;height:80px;background-color: #C9E5C0;border-radius:7px">
+                                  <p class=""style="margin-left:4px"><b>Lưu ý!</b> Sau khi nhập thông tin mã thẻ, hệ thống sẽ kiểm tra và cộng xu cho bạn ngay khi xác thực thẻ thành công. Bạn có thể kiểm tra tình trạng nạp thẻ trong phần lịch sử nạp tiền và push để hệ thống xử lý.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 text-danger"style="font-size:14px">
+                                <p>Các bạn đã nhập thông tin thẻ trước đó mà không hiển thị trong phần lịch sử nạp và chưa nhận được xu, vui lòng nhập lại. Liên hệ fanpage nếu bạn vẫn chưa nhận được xu. Rất xin lỗi vì sự bất tiện này!</p>
+                            </div>
+                            <div class="col"style="font-size:20px">
+                                <p>Bảng tỉ lệ quy đổi (x0.8)</p>
+                                <br>
+                                <div class="row"style="margin-top:-40px;">
+                                    <div class="col"style="font-size:14px">
+                                        <b>Số tiền nạp</b>
+                                    </div>
+                                    <div class="col"style="font-size:14px">
+                                      <b>Số xu nhận tương ứng</b>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row"style="font-size:14px">
+                                    <div class="col">
+                                        20,000 đ
+                                    </div>
+                                    <div class="col">
+                                        16,000 xu
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row"style="font-size:14px">
+                                    <div class="col">
+                                        50,000 đ
+                                    </div>
+                                    <div class="col">
+                                        40,000 xu
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row"style="font-size:14px">
+                                    <div class="col">
+                                        100,000 đ
+                                    </div>
+                                    <div class="col">
+                                        80,000 xu
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row"style="font-size:14px">
+                                    <div class="col">
+                                        200,000 đ
+                                    </div>
+                                    <div class="col">
+                                        160,000 xu
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row"style="font-size:14px">
+                                    <div class="col">
+                                        500,000 đ
+                                    </div>
+                                    <div class="col">
+                                        400,000 xu
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row"style="font-size:14px">
+                                    <div class="col">
+                                        1,000,000 đ
+                                    </div>
+                                    <div class="col">
+                                        800,000 xu
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"style="margin-top:-0px;margin-left:10px;">
+                            <div class="loaithe"style="width:650px;margin-top:-300px;height:265px;border-style: solid;border-width:1px;">
+                            <div class="col"style="margin-top:20px;margin-left:10px;">
+                                <b>Loại thẻ</b>
+                                <div class="row">
+                                    <div class="col"style="margin-top:20px;"> <b>Mệnh giá</b></div>
+                                    <div class="col"style="margin-top:20px;margin-left:-300px;">  
+                                    <select class="form-select"style="width:300px;background-color: #E5E7E9;">
+                                        <option>20,000đ</option>
+                                        <option>50,000đ</option>
+                                        <option>100,000đ</option>
+                                        <option>200,000đ</option>
+                                        <option>500,000đ</option>
+                                    </select> </div>
+                                </div>
+                                <div class="row"style="margin-top:10px;">
+                                    <div class="col">
+                                        <b>Mã thẻ</b>
+                                    </div>
+                                    <div class="col"style="margin-left:-300px;">
+                                        <input type="email" class="form-control"style="background-color: #E5E7E9;width:300px;" id="email" placeholder="" name="email">
+                                    </div>
+                                </div>
+                                <div class="row"style="margin-top:10px;">
+                                    <div class="col">
+                                        <b>Số seri</b>
+                                    </div>
+                                    <div class="col"style="margin-left:-300px;">
+                                        <input type="email" class="form-control"style="background-color: #E5E7E9;width:300px;" id="email" placeholder="" name="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"style="margin-top:-180px;margin-left:180px;">
+                                <div class=""style="width:300px;">
+                                    <select class="form-select"style="background-color: #E5E7E9;">
+                                        <option>Vietthel</option>
+                                        <option>Mobiphone</option>
+                                        <option>Vinaphone</option>
+                                        <option>Vietnammobile</option>
+                                      </select>
+                                </div>
+                            </div>
+                            </div>
+                             <div class="row "style="margin-left:250px;margin-top:-80px;">
+                            <button type="button " class="btn btn-info text-white"style="width:130px;height:40px;">Nạp thẻ ngay</button>
+                        </div> 
+                        </div>
+                        <!-- <div class="row "style="margin-left:250px;margin-top:-80px;">
+                            <button type="button " class="btn btn-info text-white"style="width:150px;">Nạp thẻ ngay</button>
+                        </div> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container6"style="margin-top:50px;">
+            <div class="row p-2 pt-4">
+                <div class="col-1"></div>
+            <div class="col-4">
+                <img src="/img/logo.png"style="width:200px;" alt="">
+                <div class="hr"style="width:385px;background: grey;"><hr></div>
+                <br>
+                <div class=" text-white"style="margin-right:100px;margin-top:-25px">Vlogtruyen.net - Kho truyện tranh online miễn phí | Truyện Hay. Truyện Mới. Website luôn cập nhập những bộ truyện mới nhất thuộc các thể loại đặc sắc như truyện tiên hiệp, kiếm hiệp, truyện teen, tiểu thuyết ngôn tình hay nhất. Hỗ trợ mọi thiết bị di động và máy tính bảng ...
+        
+                </div>
+            </div>
+            <div class="col text-white">
+                <div class="ext"><h3>Liên Hệ</h3></div>
+                <div class="hr"style="width:385px;background: grey;"><hr></div>
+               <img src="img/mail.jpg"style="width:20px;" alt=""> Email: Vlogtruyen.net@gmail.com
+                <br><img src="img/vll.jpg"style="width:20px;" alt=""> Fanpage: https://www.facebook.com/vlogtruyen.com
+                <br><img src="img/phone.png"style="width:20px;" alt="">0355837237
+            </div>
+            <div class="col text-white"style="margin-top:20px">
+                <div class="ext"><h3>Trụ Sở Chính</h3></div>
+                <div class="hr"style="width:385px;background: grey;"><hr></div>
+                <img src="img/map.jpg"style="width:50px;" alt="">38 Đường số 3, khu dân cư Trung sơn, Bình Chánh,TP.HCM
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
